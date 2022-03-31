@@ -1,0 +1,330 @@
+-- Instances:
+
+local RDGUI_BetaV1 = Instance.new("ScreenGui")
+local Main_Frame = Instance.new("Frame")
+local BackgroundTopbar_Frame = Instance.new("Frame")
+local Close_Button = Instance.new("TextButton")
+local Minimize_Button = Instance.new("TextButton")
+local Title_Label = Instance.new("TextLabel")
+local Background_Frame = Instance.new("Frame")
+local Scripts_Button = Instance.new("TextButton")
+local BackgroundBottombar_Frame = Instance.new("Frame")
+local Title_Label_2 = Instance.new("TextLabel")
+local ScriptsTopbar_Frame = Instance.new("Frame")
+local Close_Button_2 = Instance.new("TextButton")
+local Title_Label_3 = Instance.new("TextLabel")
+local Scripts_Frame = Instance.new("ScrollingFrame")
+local CounterBlox_Button = Instance.new("TextButton")
+local Arsenal_Button = Instance.new("TextButton")
+local PetSimX_Button = Instance.new("TextButton")
+local MurderMystery2_Button = Instance.new("TextButton")
+local Bedwars_Button = Instance.new("TextButton")
+local ComingSoon_Label = Instance.new("TextLabel")
+
+-- Properties:
+
+RDGUI_BetaV1.Name = "RDGUI_BetaV1"
+RDGUI_BetaV1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+RDGUI_BetaV1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main_Frame.Name = "Main_Frame"
+Main_Frame.Parent = RDGUI_BetaV1
+Main_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main_Frame.BackgroundTransparency = 1.000
+Main_Frame.BorderSizePixel = 0
+Main_Frame.Size = UDim2.new(1, 0, 1, 0)
+
+BackgroundTopbar_Frame.Name = "BackgroundTopbar_Frame"
+BackgroundTopbar_Frame.Parent = Main_Frame
+BackgroundTopbar_Frame.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
+BackgroundTopbar_Frame.BorderSizePixel = 0
+BackgroundTopbar_Frame.Position = UDim2.new(0.0634277984, 0, 0.260744661, 0)
+BackgroundTopbar_Frame.Size = UDim2.new(0.236167341, 0, 0.0647872463, 0)
+BackgroundTopbar_Frame.Active = true
+BackgroundTopbar_Frame.Draggable = true
+
+
+Close_Button.Name = "Close_Button"
+Close_Button.Parent = BackgroundTopbar_Frame
+Close_Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_Button.BackgroundTransparency = 1.000
+Close_Button.BorderSizePixel = 0
+Close_Button.Position = UDim2.new(0.828571439, 0, 0, 0)
+Close_Button.Size = UDim2.new(0.171428576, 0, 0.985221446, 0)
+Close_Button.Font = Enum.Font.SourceSansBold
+Close_Button.Text = "X"
+Close_Button.TextColor3 = Color3.fromRGB(129, 129, 129)
+Close_Button.TextScaled = true
+Close_Button.TextSize = 14.000
+Close_Button.TextWrapped = true
+
+Minimize_Button.Name = "Minimize_Button"
+Minimize_Button.Parent = BackgroundTopbar_Frame
+Minimize_Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize_Button.BackgroundTransparency = 1.000
+Minimize_Button.BorderSizePixel = 0
+Minimize_Button.Position = UDim2.new(0.657142878, 0, 0, 0)
+Minimize_Button.Size = UDim2.new(0.171428576, 0, 0.985221446, 0)
+Minimize_Button.Font = Enum.Font.SourceSansBold
+Minimize_Button.Text = "-"
+Minimize_Button.TextColor3 = Color3.fromRGB(129, 129, 129)
+Minimize_Button.TextSize = 46.000
+Minimize_Button.TextWrapped = true
+
+Title_Label.Name = "Title_Label"
+Title_Label.Parent = BackgroundTopbar_Frame
+Title_Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_Label.BackgroundTransparency = 1.000
+Title_Label.BorderSizePixel = 0
+Title_Label.Size = UDim2.new(0.514285743, 0, 0.985221446, 0)
+Title_Label.Font = Enum.Font.SourceSansBold
+Title_Label.Text = "RD GUI"
+Title_Label.TextColor3 = Color3.fromRGB(129, 129, 129)
+Title_Label.TextScaled = true
+Title_Label.TextSize = 14.000
+Title_Label.TextWrapped = true
+
+Background_Frame.Name = "Background_Frame"
+Background_Frame.Parent = BackgroundTopbar_Frame
+Background_Frame.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+Background_Frame.BorderSizePixel = 0
+Background_Frame.Position = UDim2.new(0, 0, 0.96715945, 0)
+Background_Frame.Size = UDim2.new(0.99999994, 0, 6.60098743, 0)
+
+Scripts_Button.Name = "Scripts_Button"
+Scripts_Button.Parent = Background_Frame
+Scripts_Button.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+Scripts_Button.BorderSizePixel = 0
+Scripts_Button.Position = UDim2.new(0.0571428575, 0, 0.0549999997, 0)
+Scripts_Button.Size = UDim2.new(0.885714293, 0, 0.180000022, 0)
+Scripts_Button.Font = Enum.Font.SourceSansBold
+Scripts_Button.Text = "Scripts"
+Scripts_Button.TextColor3 = Color3.fromRGB(186, 186, 186)
+Scripts_Button.TextScaled = true
+Scripts_Button.TextSize = 14.000
+Scripts_Button.TextWrapped = true
+
+BackgroundBottombar_Frame.Name = "BackgroundBottombar_Frame"
+BackgroundBottombar_Frame.Parent = Background_Frame
+BackgroundBottombar_Frame.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
+BackgroundBottombar_Frame.BorderSizePixel = 0
+BackgroundBottombar_Frame.Position = UDim2.new(0.00628492096, 0, 0.839787304, 0)
+BackgroundBottombar_Frame.Size = UDim2.new(0.993715048, 0, 0.159787178, 0)
+
+Title_Label_2.Name = "Title_Label"
+Title_Label_2.Parent = BackgroundBottombar_Frame
+Title_Label_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_Label_2.BackgroundTransparency = 1.000
+Title_Label_2.BorderSizePixel = 0
+Title_Label_2.Position = UDim2.new(4.38722765e-08, 0, 0.0266009346, 0)
+Title_Label_2.Size = UDim2.new(1, 0, 0.958620608, 0)
+Title_Label_2.Font = Enum.Font.SourceSansBold
+Title_Label_2.Text = "Beta V1"
+Title_Label_2.TextColor3 = Color3.fromRGB(129, 129, 129)
+Title_Label_2.TextScaled = true
+Title_Label_2.TextSize = 14.000
+Title_Label_2.TextWrapped = true
+
+ScriptsTopbar_Frame.Name = "ScriptsTopbar_Frame"
+ScriptsTopbar_Frame.Parent = Main_Frame
+ScriptsTopbar_Frame.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
+ScriptsTopbar_Frame.BorderSizePixel = 0
+ScriptsTopbar_Frame.Position = UDim2.new(0.314439952, 0, 0.259574473, 0)
+ScriptsTopbar_Frame.Size = UDim2.new(0.182186231, 0, 0.0659574494, 0)
+ScriptsTopbar_Frame.Active = true
+ScriptsTopbar_Frame.Draggable = true
+
+
+Close_Button_2.Name = "Close_Button"
+Close_Button_2.Parent = ScriptsTopbar_Frame
+Close_Button_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_Button_2.BackgroundTransparency = 1.000
+Close_Button_2.BorderSizePixel = 0
+Close_Button_2.Position = UDim2.new(0.811216891, 0, -0.0145165231, 0)
+Close_Button_2.Size = UDim2.new(0.18878302, 0, 0.982258499, 0)
+Close_Button_2.Font = Enum.Font.SourceSansBold
+Close_Button_2.Text = "X"
+Close_Button_2.TextColor3 = Color3.fromRGB(129, 129, 129)
+Close_Button_2.TextScaled = true
+Close_Button_2.TextSize = 14.000
+Close_Button_2.TextWrapped = true
+
+Title_Label_3.Name = "Title_Label"
+Title_Label_3.Parent = ScriptsTopbar_Frame
+Title_Label_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_Label_3.BackgroundTransparency = 1.000
+Title_Label_3.BorderSizePixel = 0
+Title_Label_3.Position = UDim2.new(0.05185185, 0, 0, 0)
+Title_Label_3.Size = UDim2.new(0.544973552, 0, 0.985221446, 0)
+Title_Label_3.Font = Enum.Font.SourceSansBold
+Title_Label_3.Text = "Scripts"
+Title_Label_3.TextColor3 = Color3.fromRGB(129, 129, 129)
+Title_Label_3.TextScaled = true
+Title_Label_3.TextSize = 14.000
+Title_Label_3.TextWrapped = true
+
+Scripts_Frame.Name = "Scripts_Frame"
+Scripts_Frame.Parent = ScriptsTopbar_Frame
+Scripts_Frame.Active = true
+Scripts_Frame.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+Scripts_Frame.BorderSizePixel = 0
+Scripts_Frame.Position = UDim2.new(0, 0, 0.967741847, 0)
+Scripts_Frame.Size = UDim2.new(0.999999642, 0, 6.46580315, 0)
+Scripts_Frame.CanvasSize = UDim2.new(0, 0, 0.430000007, 0)
+Scripts_Frame.ScrollBarThickness = 9
+
+CounterBlox_Button.Name = "CounterBlox_Button"
+CounterBlox_Button.Parent = Scripts_Frame
+CounterBlox_Button.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+CounterBlox_Button.BorderSizePixel = 0
+CounterBlox_Button.Position = UDim2.new(0.075000003, 0, 0.0430000015, 0)
+CounterBlox_Button.Size = UDim2.new(0.830000043, 0, 0.110314958, 0)
+CounterBlox_Button.Font = Enum.Font.SourceSansBold
+CounterBlox_Button.Text = "Counter Blox"
+CounterBlox_Button.TextColor3 = Color3.fromRGB(186, 186, 186)
+CounterBlox_Button.TextScaled = true
+CounterBlox_Button.TextSize = 14.000
+CounterBlox_Button.TextWrapped = true
+
+Arsenal_Button.Name = "Arsenal_Button"
+Arsenal_Button.Parent = Scripts_Frame
+Arsenal_Button.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+Arsenal_Button.BorderSizePixel = 0
+Arsenal_Button.Position = UDim2.new(0.0824074149, 0, 0.199620053, 0)
+Arsenal_Button.Size = UDim2.new(0.830000043, 0, 0.111096323, 0)
+Arsenal_Button.Font = Enum.Font.SourceSansBold
+Arsenal_Button.Text = "Arsenal"
+Arsenal_Button.TextColor3 = Color3.fromRGB(186, 186, 186)
+Arsenal_Button.TextScaled = true
+Arsenal_Button.TextSize = 14.000
+Arsenal_Button.TextWrapped = true
+
+PetSimX_Button.Name = "PetSimX_Button"
+PetSimX_Button.Parent = Scripts_Frame
+PetSimX_Button.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+PetSimX_Button.BorderSizePixel = 0
+PetSimX_Button.Position = UDim2.new(0.0824074075, 0, 0.358556986, 0)
+PetSimX_Button.Size = UDim2.new(0.830000043, 0, 0.110314958, 0)
+PetSimX_Button.Font = Enum.Font.SourceSansBold
+PetSimX_Button.Text = "Pet Sim X"
+PetSimX_Button.TextColor3 = Color3.fromRGB(186, 186, 186)
+PetSimX_Button.TextScaled = true
+PetSimX_Button.TextSize = 14.000
+PetSimX_Button.TextWrapped = true
+
+MurderMystery2_Button.Name = "MurderMystery2_Button"
+MurderMystery2_Button.Parent = Scripts_Frame
+MurderMystery2_Button.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+MurderMystery2_Button.BorderSizePixel = 0
+MurderMystery2_Button.Position = UDim2.new(0.075000003, 0, 0.65149951, 0)
+MurderMystery2_Button.Size = UDim2.new(0.830000043, 0, 0.110524938, 0)
+MurderMystery2_Button.Font = Enum.Font.SourceSansBold
+MurderMystery2_Button.Text = "Murder Mystery 2"
+MurderMystery2_Button.TextColor3 = Color3.fromRGB(186, 186, 186)
+MurderMystery2_Button.TextScaled = true
+MurderMystery2_Button.TextSize = 14.000
+MurderMystery2_Button.TextWrapped = true
+
+Bedwars_Button.Name = "Bedwars_Button"
+Bedwars_Button.Parent = Scripts_Frame
+Bedwars_Button.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+Bedwars_Button.BorderSizePixel = 0
+Bedwars_Button.Position = UDim2.new(0.075000003, 0, 0.502258003, 0)
+Bedwars_Button.Size = UDim2.new(0.830000043, 0, 0.110315152, 0)
+Bedwars_Button.Font = Enum.Font.SourceSansBold
+Bedwars_Button.Text = "Bedwars"
+Bedwars_Button.TextColor3 = Color3.fromRGB(186, 186, 186)
+Bedwars_Button.TextScaled = true
+Bedwars_Button.TextSize = 14.000
+Bedwars_Button.TextWrapped = true
+
+ComingSoon_Label.Name = "ComingSoon_Label"
+ComingSoon_Label.Parent = Scripts_Frame
+ComingSoon_Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ComingSoon_Label.BackgroundTransparency = 1.000
+ComingSoon_Label.BorderSizePixel = 0
+ComingSoon_Label.Position = UDim2.new(0.0814814791, 0, 0.750293255, 0)
+ComingSoon_Label.Size = UDim2.new(0.830000043, 0, 0.240945071, 0)
+ComingSoon_Label.Font = Enum.Font.SourceSansBold
+ComingSoon_Label.Text = "More Coming Soon..."
+ComingSoon_Label.TextColor3 = Color3.fromRGB(129, 129, 129)
+ComingSoon_Label.TextScaled = true
+ComingSoon_Label.TextSize = 14.000
+ComingSoon_Label.TextWrapped = true
+
+-- Scripts:
+
+local function BHFMJ_fake_script() -- Close_Button.LocalScript 
+	local script = Instance.new('LocalScript', Close_Button)
+
+	local Close_Button = script.Parent
+	local Backround_Frame = script.Parent.Parent.Parent.BackgroundTopbar_Frame.Background_Frame
+	local BackgroundTopbar_Frame = script.Parent.Parent.Parent.BackgroundTopbar_Frame
+	
+	Close_Button.MouseButton1Click:Connect(function()
+		Backround_Frame.Visible = false
+		BackgroundTopbar_Frame.Visible = false
+	end)
+end
+coroutine.wrap(BHFMJ_fake_script)()
+local function BNZMG_fake_script() -- Minimize_Button.LocalScript 
+	local script = Instance.new('LocalScript', Minimize_Button)
+
+	local Minimize_Button = script.Parent
+	local Backround_Frame = script.Parent.Parent.Parent.BackgroundTopbar_Frame.Background_Frame
+	
+	Minimize_Button.MouseButton1Click:Connect(function()
+		if Backround_Frame.Visible == true then
+			Backround_Frame.Visible = false
+		else
+			Backround_Frame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(BNZMG_fake_script)()
+local function XDXT_fake_script() -- Scripts_Button.LocalScript 
+	local script = Instance.new('LocalScript', Scripts_Button)
+
+	local Scripts_Button = script.Parent
+	local Scripts_Frame = script.Parent.Parent.Parent.Parent.ScriptsTopbar_Frame.Scripts_Frame
+	local ScriptsTopbar_Frame = script.Parent.Parent.Parent.Parent.ScriptsTopbar_Frame
+	
+	Scripts_Button.MouseButton1Click:Connect(function()
+		Scripts_Frame.Visible = true
+		ScriptsTopbar_Frame.Visible  = true
+	end)
+end
+coroutine.wrap(XDXT_fake_script)()
+local function GTDS_fake_script() -- Close_Button_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_Button_2)
+
+	local Close_Button = script.Parent
+	local Scripts_Frame = script.Parent.Parent.Parent.ScriptsTopbar_Frame.Scripts_Frame
+	local ScriptsTopbar_Frame = script.Parent.Parent.Parent.ScriptsTopbar_Frame
+	
+	Close_Button.MouseButton1Click:Connect(function()
+		Scripts_Frame.Visible = false
+		ScriptsTopbar_Frame.Visible = false
+	end)
+end
+coroutine.wrap(GTDS_fake_script)()
+
+CounterBlox_Button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Danixik/LoaderV3/main/Main.lua", true))()
+end)
+
+Arsenal_Button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+PetSimX_Button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/95HthyJq"))() 
+end)
+
+Bedwars_Button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+MurderMystery2_Button.MouseButton1Click:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
